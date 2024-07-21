@@ -1,7 +1,6 @@
-# Submission 1: Diabetes Detection
+# Diabetes Detection
 
 Nama: Bryan Herdianto  
-Username dicoding: bryanherdianto
 
 | | Deskripsi |
 | ----------- | ----------- |
