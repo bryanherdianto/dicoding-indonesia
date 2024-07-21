@@ -56,13 +56,6 @@ Dalam *business dashboard* yang telah dibuat, dilakukan upaya untuk menjawab per
 
 Link: http://localhost:3000/public/dashboard/e6b9742e-3615-4262-8f7a-79bf1cc2ad2c
 
-## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
-
-```
-
-```
-
 ## Conclusion
 
 Upaya untuk mencari tahu penyebab terjadi *attrition* pada karyawan dilakukan dengan *k-means clustering*. Lewat upaya tersebut, ditemukan 4 klaster. 
