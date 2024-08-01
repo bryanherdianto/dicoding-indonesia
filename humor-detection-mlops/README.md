@@ -1,0 +1,17 @@
+# Humor Detection with Machine Learning Pipeline and InteractiveContext
+
+| | Description |
+| ----------- | ----------- |
+| **Dataset** | [Humor Short Text Dataset](https://www.kaggle.com/datasets/deepcontractor/200k-short-texts-for-humor-detection) |
+| **Problem** | The objective of this project is to detect the presence of humor in short texts using natural language processing (NLP) techniques. |
+| **Machine Learning Solution** | Utilizes a classification model to predict whether a short text contains humor or not. |
+| **Data Processing Method** | Text representation is converted into vectors using an embedding layer. Global average pooling is then applied to reduce dimensions before feeding into the classification model. |
+| **Model Architecture** | The model consists of an embedding layer for text representation, followed by a GlobalAveragePooling1D layer to reduce dimensions, and several Dense layers for further feature processing. |
+| **Evaluation Metrics** | Using AUC, Precision, Recall, and Binary Accuracy as metrics, the model's performance in handling classification problems can be evaluated. 1) **BinaryAccuracy** measures how often the model's predictions are correct in binary classification, calculated as the ratio of correct predictions to the total number of predictions. 2) **AUC (Area Under the ROC Curve)** measures the model's ability to distinguish between positive and negative classes, providing an overview of model performance across different classification thresholds. 3) **Precision** is the ratio of correctly predicted positive observations to the total predicted positives, measuring how many of the model's positive predictions are actually positive. 4) **Recall** is the ratio of correctly predicted positive observations to all actual positives, measuring how well the model detects all positive examples. |
+| **Model Performance** | The model is expected to perform well in detecting humor in short texts. The model achieved an accuracy of 0.9234, indicating it is quite effective in humor detection. |
+| **Deployment Options** | The model is deployed using Heroku, a cloud platform as a service (PaaS) that allows developers to build, run, and operate applications entirely in the cloud. For this project, the model is deployed using Heroku's Container Registry, which enables developers to deploy applications to Heroku using Docker containers. |
+| **Web App** | A web app link to access the model serving: [humor-detection](https://humor-prediction-09b81c047ba6.herokuapp.com/v1/models/humor-detection-model/metadata). **Note:** If the link is not working, the model is currently offline to save costs. |
+| **Monitoring** | Model serving is monitored using Prometheus. Prometheus provides various metrics related to the TensorFlow Serving model, such as `tensorflow:cc:serving:request_count`, which shows the number of requests received by the model serving within a specified time range. |
+
+### Additional Information
+To manage costs effectively, the Heroku app hosting this model is not always live. If you find that the model is currently offline, please reach out to me via email to request access. I will promptly make the model live for you to interact with.
